@@ -6,6 +6,7 @@
   "description": "Ativação de CRM da Use Zero Hora: cobertura de contato, consentimento e disparo email/WhatsApp a partir da audience spec do painel.",
   "scripts": {
     "cobertura": "node cobertura/gerar_cobertura.mjs",
-    "cobertura:exemplo": "node cobertura/gerar_cobertura.mjs --in exports/contatos.exemplo.json --out contatos_cobertura.json --fonte exemplo"
+    "cobertura:baselinker": "node cobertura/extrair_baselinker.mjs",
+    "cobertura:exemplo": "node cobertura/extrair_baselinker.mjs --mock exports/orders.exemplo.json --assume-consent email,whatsapp --out contatos_cobertura.json"
   }
 }
