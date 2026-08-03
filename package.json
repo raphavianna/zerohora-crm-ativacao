@@ -1,0 +1,11 @@
+{
+  "name": "zerohora-crm-ativacao",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Ativação de CRM da Use Zero Hora: cobertura de contato, consentimento e disparo email/WhatsApp a partir da audience spec do painel.",
+  "scripts": {
+    "cobertura": "node cobertura/gerar_cobertura.mjs",
+    "cobertura:exemplo": "node cobertura/gerar_cobertura.mjs --in exports/contatos.exemplo.json --out contatos_cobertura.json --fonte exemplo"
+  }
+}

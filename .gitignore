@@ -1,0 +1,16 @@
+# PII — NUNCA versionar. Só o contatos_cobertura.json (booleans) pode sair daqui.
+exports/*
+!exports/*.exemplo.json
+contatos/*
+!contatos/LEIA-ME.md
+*.env
+.env*
+suppression.json
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Saídas locais de teste (o cobertura publicado vai por processo controlado ao painel)
+contatos_cobertura.json
+!docs/**/*.json

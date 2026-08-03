@@ -1,0 +1,6 @@
+[
+  { "user_login": "surfista_jc", "email": "jc@exemplo.com", "phone": "+55 48 99999-1111", "optin_email": true,  "optin_whatsapp": true },
+  { "user_login": "",            "email": "maria@exemplo.com", "phone": "",                 "optin_email": true,  "optin_whatsapp": false },
+  { "user_login": "ml_comprador_42", "email": "", "phone": "48 98888-2222",                "optin_email": false, "optin_whatsapp": true },
+  { "user_login": "", "email": "", "phone": "" }
+]
