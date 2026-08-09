@@ -27,7 +27,7 @@ contra a copy aprovada e o briefing.
 </briefing>
 
 <verificacoes>
-Percorra as sete verificações abaixo. Cada uma fecha em passou ou falhou, com a evidência
+Percorra as oito verificações abaixo. Cada uma fecha em passou ou falhou, com a evidência
 do arquivo ao lado. Verificação sem evidência citada conta como não feita.
 
 1. **Fidelidade da copy** — o texto do HTML é idêntico ao de 04-copy.md, palavra por
@@ -51,15 +51,22 @@ do arquivo ao lado. Verificação sem evidência citada conta como não feita.
 6. **Clique** — um único destino, apontando para usezerohora.com.br, com UTM
    consistente em todas as ocorrências. Liste toda `href` encontrada.
 
-7. **Robustez de cliente** — layout em tabela, CSS inline, peso total abaixo de 1 MB,
-   legibilidade em dark mode, link de descadastro presente.
+7. **Robustez de cliente** — layout em tabela, CSS inline, legibilidade em dark mode,
+   merge tags com valor de fallback e link de descadastro presente.
+
+8. **Tamanho do HTML** — meça o arquivo em KB e compare com o limite de 102 KB do
+   Gmail, que é onde esta peça é lida. Acima disso o Gmail corta o email no meio.
+   Reporte o número medido, não a impressão. Entre 80 e 102 KB, classifique como
+   "corrige antes": a margem que falta é exatamente o que a ferramenta injeta no envio
+   em pixel de rastreio e reescrita de link. Acima de 102 KB, bloqueia o disparo.
 </verificacoes>
 
 <severidade>
 Classifique cada achado:
-- **Bloqueia o disparo** — copy divergente, limite estourado, link quebrado, ausência de
-  descadastro, peça ilegível sem imagem.
-- **Corrige antes** — alt fraco, UTM inconsistente, peso alto, risco em dark mode.
+- **Bloqueia o disparo** — copy divergente, limite de caractere estourado, link quebrado,
+  ausência de descadastro, peça ilegível sem imagem, HTML acima de 102 KB.
+- **Corrige antes** — alt fraco, UTM inconsistente, HTML entre 80 e 102 KB, merge tag sem
+  fallback, risco em dark mode.
 - **Registra** — o que funciona mas vale melhorar no próximo disparo.
 
 Ordene o relatório por severidade. Não misture os três níveis na mesma lista: quem lê

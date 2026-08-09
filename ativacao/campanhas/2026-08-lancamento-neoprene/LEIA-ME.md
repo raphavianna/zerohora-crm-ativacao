@@ -14,8 +14,29 @@ Objetivo: **conversão no site próprio**, não tráfego. As artes de origem fic
 | Formato | Uma peça única de lançamento, com os três produtos, ancorada nas imagens principais e nos infográficos de features em destaque. |
 | Ordem dos produtos | Definida por volume de busca (Etapa 2). Sem dado de busca, vale o que a arte já sustenta. |
 | Features em destaque | Cruzamento entre dor de maior demanda nas buscas e o que a arte comprova. Feature sem lastro na arte não entra. |
-| Oferta | Frete grátis: claro e visível na peça, e não é o mote. Fora do assunto, do preheader e da primeira frase. |
+| Oferta | Frete grátis **incondicional** — sem valor mínimo, região ou prazo. Claro e visível na peça, e não é o mote. Fora do assunto, do preheader e da primeira frase. Sem ressalva nem letra miúda: não há condição a escrever. |
+| Data de disparo | **10/08/2026** |
+| Ferramenta de disparo | **Mailmeteor**, sobre Gmail, com lista em Google Sheets |
 | Handoff | Aqui sai documentação — fichas, arquitetura, copy, inventário de imagens e briefing. **O Claude Design faz layout, composição, posicionamento e o código.** |
+
+## A restrição que domina a peça
+
+O disparo por Mailmeteor sobre Gmail impõe o limite que mais restringe o layout: **o HTML
+precisa ficar abaixo de 102 KB**. Acima disso o Gmail corta a peça no meio e esconde o
+resto atrás de "ver mensagem inteira" — e o que fica escondido é o fim do email, onde
+está o último call-to-action.
+
+O alvo de trabalho é **80 KB**. A folga cobre o pixel de rastreio, o rodapé e a reescrita
+de link que a ferramenta injeta no envio, depois de o arquivo já estar fechado.
+
+A conta é de HTML e CSS inline; imagem hospedada por URL não entra nela. O que estoura o
+limite é CSS repetido bloco a bloco — e a peça tem três blocos de produto de estrutura
+parecida, que é o padrão que multiplica código. Isso está no briefing do Design como
+restrição dominante, não como nota de rodapé.
+
+Fontes: [limite de 102 KB do Gmail](https://www.emailonacid.com/blog/article/email-development/gmail-email-clipping/),
+[alvo de 80 KB](https://tabular.email/blog/email-template-size-width-and-height),
+[limites do Mailmeteor](https://mailmeteor.com/docs/help/troubleshooting/attachments-issues).
 
 ## Fonte de dados do produto
 
@@ -56,14 +77,19 @@ o *porquê* de cada bloco; do Claude Design vêm a solução visual e o HTML.
 
 ## Bloqueios abertos
 
-1. **Artes não subidas.** Trava a Etapa 1, que trava todo o resto.
+1. **Artes não subidas.** Trava a Etapa 1, que trava todo o resto. É o caminho crítico.
 2. **Semrush sem saldo** (`403 ERROR 132 :: API UNITS BALANCE IS ZERO`, 09/08/2026).
    Trava a Etapa 2. Alternativa sem custo: arquivar um export de volume de busca em
    `search-mkt/data/` — o prompt da Etapa 2 já lê dessa fonte. Sem nenhuma das duas, a
-   ordem de produtos e features sai marcada como provisória.
-3. **Condições do frete grátis** não definidas: valor mínimo, região e validade.
-4. **Ferramenta de disparo** não confirmada (o playbook cita Brevo na fase 1). Define as
-   tags de personalização e o link de descadastro que o Design precisa embutir no HTML.
+   ordem de produtos e features sai marcada como provisória, sustentada por julgamento
+   declarado como tal.
+
+## Prazo
+
+Disparo em 10/08/2026, com as artes ainda não subidas em 09/08. As Etapas 1 e 3 a 5
+rodam em sequência numa volta só assim que as imagens estiverem no repositório; a Etapa 2
+sai como provisória, salvo crédito de Semrush ou export de volume até lá. O tempo de
+layout e código do Claude Design entra depois disso, e é o que resta do prazo.
 
 ## Regras que a copy herda
 

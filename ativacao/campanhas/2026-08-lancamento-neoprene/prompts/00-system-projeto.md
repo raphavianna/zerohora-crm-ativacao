@@ -30,8 +30,12 @@ Peça: um email HTML de lançamento da linha de neoprene, contendo os três prod
 
 Audiência: base masculina do site próprio (lista já gerada pelo time).
 Objetivo: venda no site, não tráfego nem alcance.
-Oferta: frete grátis. Ela aparece de forma clara e visível na peça, e não é o mote
-principal do email — o mote é o lançamento da linha.
+Data de disparo: 10/08/2026.
+Ferramenta de disparo: Mailmeteor, sobre Gmail, com lista em Google Sheets.
+Oferta: frete grátis incondicional — sem valor mínimo, sem recorte de região, sem prazo.
+Ela aparece de forma clara e visível na peça, e não é o mote principal do email — o mote
+é o lançamento da linha. Sendo incondicional, o bloco não carrega ressalva, asterisco
+nem letra miúda: qualquer condição escrita ali seria falsa.
 </campanha>
 
 <regras_de_copy>

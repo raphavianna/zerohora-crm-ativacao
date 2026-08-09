@@ -55,8 +55,20 @@ Produza 05-brief-design.md, autossuficiente, com estas sete seções:
 5. **Restrições técnicas de email** — as que limitam o layout, com o motivo de cada uma:
    corpo de 600 px; assets em 1200 px de largura para tela retina; a peça precisa
    comunicar a mensagem central com imagem bloqueada; texto alternativo obrigatório em
-   toda imagem; um único destino de clique; a peça é lida em dark mode por parte da
-   base; alvo de peso total abaixo de 1 MB para não ser cortada pelo Gmail.
+   toda imagem; um único destino de clique; a peça é lida em dark mode por parte da base.
+
+   E a restrição que domina esta campanha, porque o disparo é por Mailmeteor sobre
+   Gmail: **o HTML precisa ficar abaixo de 102 KB**, senão o Gmail corta a peça e mostra
+   "Mensagem truncada — ver mensagem inteira". O corte cai no meio do email, e o que
+   fica escondido atrás de um clique extra costuma ser o fim da peça, onde mora o
+   último call-to-action. O alvo de trabalho é **80 KB**, não 102: a diferença cobre o
+   pixel de rastreio, o rodapé e a reescrita de link que a ferramenta injeta no envio,
+   depois de você já ter fechado o arquivo.
+
+   Essa conta é de HTML e CSS inline, não de imagem. Imagem hospedada por URL não pesa
+   no HTML — o que engorda o arquivo é CSS repetido bloco a bloco, comentário de
+   template e markup redundante. Três produtos com estrutura idêntica repetida três
+   vezes é o caminho mais curto para o corte.
 
 6. **O que é decisão do Design** — declare explicitamente: grid, composição, paleta,
    tipografia, espaçamento, tratamento dos infográficos, ritmo visual entre os três
@@ -103,12 +115,39 @@ escreveu a copy.
 Email não é página. O código precisa sobreviver a cliente antigo e a renderização
 hostil:
 - Corpo de 600 px, layout em tabela, CSS inline
-- Imagens em 1200 px de largura, servidas em 600 px, com texto alternativo em todas
+- Imagens hospedadas por URL, em 1200 px de largura servidas em 600 px, com texto
+  alternativo em todas
 - A mensagem central chega mesmo com imagem bloqueada
 - Dark mode legível, sem depender de fundo branco
 - Um único destino de clique
-- Peso total abaixo de 1 MB, para o Gmail não cortar a peça
 </restricoes_de_email>
+
+<restricao_dominante>
+O disparo é por Mailmeteor sobre Gmail. **O HTML precisa ficar abaixo de 102 KB.** Acima
+disso o Gmail corta a peça no meio e esconde o resto atrás de "ver mensagem inteira" —
+e o que fica escondido é o fim do email, onde está o último call-to-action.
+
+Trabalhe com alvo de **80 KB**. A folga cobre o pixel de rastreio, o rodapé e a reescrita
+de link que a ferramenta injeta no momento do envio, depois de o arquivo já estar
+fechado.
+
+A conta é de HTML e CSS inline; imagem hospedada por URL não entra nela. O que estoura o
+limite é CSS repetido bloco a bloco e markup redundante — e esta peça tem três blocos de
+produto de estrutura parecida, que é justamente o padrão que multiplica código. Vale
+resolver isso no desenho do markup desde o começo, não no final por compressão.
+
+Informe o tamanho final do HTML na entrega.
+</restricao_dominante>
+
+<mailmeteor>
+A peça é enviada por mail merge com lista em Google Sheets. Duas consequências para o
+código:
+- A personalização usa merge tag por coluna da planilha. Confirme a sintaxe exata na
+  conta antes de embutir, e deixe todo merge tag com valor de fallback, para o campo
+  vazio não virar um buraco visível no meio da frase.
+- O link de descadastro é obrigatório e é gerenciado pela ferramenta. Reserve o lugar
+  dele no rodapé e confirme como a ferramenta injeta o link antes de fechar o arquivo.
+</mailmeteor>
 
 Entregue o layout e o HTML. Aponte, ao final, qualquer ponto do briefing que tenha
 conflitado com uma decisão visual.
