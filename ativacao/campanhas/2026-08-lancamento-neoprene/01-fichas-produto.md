@@ -14,12 +14,14 @@ aparece em nenhuma arte está marcado como **não consta na arte**, sem inferên
 
 O acervo se divide em dois, com destinos diferentes:
 
-**Assets do email — 7 fotografias.** Packshots e lifestyle, sem texto aplicado. São as
+**Assets do email — 9 fotografias.** Packshots e lifestyle, sem texto aplicado. São as
 únicas imagens que entram na peça.
 
 | Arquivo | Produto | O que mostra |
 |---|---|---|
-| `00-linha-neoprene/linha-lifestyle-praia-01.jpg` | Linha | Surfista de costas na praia usando os três produtos, com prancha e leash |
+| `00-linha-neoprene/linha-hero-surfista-01.jpg` | Linha | **Hero.** Surfista saindo da água de frente, luz de fim de tarde, camiseta e bermuda, prancha sob o braço. Horizontal, 1200 × 755 |
+| `00-linha-neoprene/linha-lifestyle-surfista-02.jpg` | Linha | Mesma sessão, enquadramento vertical de corpo inteiro. 1200 × 1393 |
+| `00-linha-neoprene/linha-lifestyle-praia-01.jpg` | Linha | Surfista de costas na praia usando os três produtos, **sapatilhas incluídas**, com prancha e leash |
 | `01-camiseta-neoprene-cabo-frio/camiseta-packshot-frente.jpg` | Camiseta | Frente em modelo, gola alta, etiqueta OH circular no peito |
 | `01-camiseta-neoprene-cabo-frio/camiseta-packshot-costas.jpg` | Camiseta | Costas em modelo, recorte raglã e costura central |
 | `02-bermuda-neoprene-joaquina/bermuda-packshot-lateral.jpg` | Bermuda | Lateral em modelo, close do caimento e da etiqueta emborrachada |
@@ -32,9 +34,21 @@ O acervo se divide em dois, com destinos diferentes:
 técnica que alimenta a copy e para o Design ver como a marca já comunicou cada feature.
 O tratamento visual das features na peça é criação do Design, não recorte destas artes.
 
-Consequência a registrar: a peça tem **7 fotografias para três produtos**, e a bermuda é
-a única com foto de corpo inteiro. Se o layout pedir mais ângulos, é pedido de foto nova,
-não de recorte de infográfico.
+Consequência a registrar: a peça tem **9 fotografias para três produtos**. Se o layout
+pedir mais ângulos, é pedido de foto nova, não de recorte de infográfico.
+
+### Nota sobre as duas fotos novas (10/08/2026)
+
+`linha-hero-surfista-01.jpg` e `linha-lifestyle-surfista-02.jpg` chegaram com nome de
+arquivo do Gemini e **marca d'água de IA** — duas estrelas de quatro pontas na horizontal
+e uma na vertical. Removidas por corte: 312 px da direita na horizontal, 310 px da base
+na vertical. Os cortes foram conferidos e as versões arquivadas estão limpas.
+
+**Restrição que fica:** nas duas, o texto de marca aplicado nas peças está embaralhado —
+o selo circular no peito tem letras ilegíveis sob o "OH", e a etiqueta na coxa da bermuda
+é um borrão. Na largura de exibição do email o peito fica com cerca de 30 px, e nesse
+tamanho lê como selo, não como texto errado. **Não ampliar nem recortar o peito ou a
+etiqueta da coxa** — é aí que o defeito aparece.
 
 ---
 
@@ -200,12 +214,25 @@ provavelmente circula em outros canais.
 
 ---
 
-## Linha — arte de contexto
+## Linha — artes de contexto
 
-`linha-lifestyle-praia-01.jpg` mostra um surfista de costas na praia usando **os três
-produtos ao mesmo tempo** — camiseta manga longa, bermuda e sapatilhas — com prancha e
-leash. É a única arte que apresenta a linha como conjunto, e a candidata natural a hero
-da peça.
+Três fotos mostram a linha vestida, e cada uma tem um papel diferente:
+
+- **`linha-hero-surfista-01.jpg`** — horizontal, surfista de frente saindo da água na
+  luz de fim de tarde. É o hero: o formato cabe na dobra sem comer uma tela inteira de
+  altura, e a espuma à esquerda deixa área livre para a headline. Mostra camiseta e
+  bermuda; o enquadramento termina na canela, então a ausência da sapatilha não aparece.
+- **`linha-lifestyle-praia-01.jpg`** — surfista de costas usando **os três produtos ao
+  mesmo tempo**, sapatilhas nos pés. É a única que prova que a linha tem três peças, e
+  por isso vale mais no fechamento, onde a copy reamarra as três.
+- **`linha-lifestyle-surfista-02.jpg`** — vertical de corpo inteiro da mesma sessão do
+  hero. Sobra para o Design usar onde a composição pedir.
+
+## Marca
+
+`04-marca/logo-use-zero-hora-branco.png` — logo oficial em versão negativa: símbolo em
+"Z" mais o lettering "USE ZERO HORA" em três linhas, branco sobre fundo transparente.
+**Só funciona sobre fundo escuro.** A versão positiva ainda não existe no repositório.
 
 ---
 
@@ -218,13 +245,14 @@ Cinco das 21 artes não são desta linha. Ficaram arquivadas em
 |---|---|---|
 | `lycra-azul-manga-longa.jpg` | Camiseta de lycra azul, manga longa, logo "ZERO HORA" escrito | Outro produto e outra linha |
 | `lycra-azul-manga-curta.jpg` | Camiseta de lycra azul, manga curta | Outro produto e outra linha |
-| `lycra-verde-limao-01.jpg` | Lycra preta e verde-limão com logo em "Z" | Outro produto, **e o logo não é o da marca** (as peças de neoprene usam o monograma OH) |
-| `lycra-verde-02.jpg` | Lycra verde e preta com logo em "Z" | Mesmo caso |
-| `lycra-preta-01.jpg` | Lycra preta com logo em "Z" | Mesmo caso |
+| `lycra-verde-limao-01.jpg` | Lycra preta e verde-limão com a marca em "Z" | Outro produto e outra linha |
+| `lycra-verde-02.jpg` | Lycra verde e preta com a marca em "Z" | Mesmo caso |
+| `lycra-preta-01.jpg` | Lycra preta com a marca em "Z" | Mesmo caso |
 
-As três últimas têm aparência de imagem gerada e trazem um logo em "Z" que não bate com
-a identidade das peças de neoprene. Usar qualquer uma no email quebraria a consistência
-de marca dentro da própria peça.
+**Correção de 10/08/2026.** A versão anterior desta seção afirmava que a marca em "Z"
+dessas três peças "não é o logo da marca". Está errado: o logo oficial recebido em
+10/08 é exatamente esse "Z" ao lado do lettering "USE ZERO HORA". As peças estão com a
+marca correta. O motivo de ficarem fora continua sendo outro — são lycra, não neoprene.
 
 ---
 

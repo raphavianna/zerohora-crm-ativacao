@@ -134,7 +134,10 @@ Descrevem a informação que a imagem carrega, não a aparência dela.
 
 | Arquivo | Texto alternativo |
 |---|---|
-| `00-linha-neoprene/linha-lifestyle-praia-01.jpg` | Surfista de costas na beira do mar usando a linha completa: camiseta de neoprene de manga longa, bermuda e sapatilhas, com a prancha debaixo do braço |
+| `04-marca/logo-use-zero-hora-branco.png` | Use Zero Hora |
+| `00-linha-neoprene/linha-hero-surfista-01.jpg` | Surfista saindo do mar de camiseta de neoprene de manga longa e bermuda de neoprene, com a prancha debaixo do braço |
+| `00-linha-neoprene/linha-lifestyle-praia-01.jpg` | Surfista de costas na beira do mar usando a linha completa: camiseta de neoprene de manga longa, bermuda e sapatilhas nos pés |
+| `00-linha-neoprene/linha-lifestyle-surfista-02.jpg` | Surfista de corpo inteiro na beira do mar, de camiseta de neoprene de manga longa e bermuda de neoprene |
 | `01-camiseta-.../camiseta-packshot-frente.jpg` | Camiseta de neoprene Cabo Frio de frente, manga longa e gola alta, na cor preta |
 | `01-camiseta-.../camiseta-packshot-costas.jpg` | Camiseta de neoprene Cabo Frio de costas, com recorte raglã e costura central |
 | `02-bermuda-.../bermuda-lifestyle-01.jpg` | Bermuda de neoprene Joaquina vestida, comprimento acima do joelho, na cor preta |

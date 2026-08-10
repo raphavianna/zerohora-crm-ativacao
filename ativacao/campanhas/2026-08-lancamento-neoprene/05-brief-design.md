@@ -22,11 +22,14 @@ neoprene de 1,5 mm — em meio a três produtos disputando atenção.
 
 ## 2. Inventário de imagens
 
-### 2.1 Assets do email — as sete fotografias que entram na peça
+### 2.1 Assets do email — as nove fotografias e o logo
 
 | Arquivo | Bloco | Função | Texto alternativo |
 |---|---|---|---|
-| `imagens-design/00-linha-neoprene/linha-lifestyle-praia-01.jpg` | 4 — Hero | Mostrar a linha em uso, os três produtos juntos | Surfista de costas na beira do mar usando a linha completa: camiseta de neoprene de manga longa, bermuda e sapatilhas, com a prancha debaixo do braço |
+| `imagens-design/04-marca/logo-use-zero-hora-branco.png` | 3 — Topo | Identificar o remetente | Use Zero Hora |
+| `imagens-design/00-linha-neoprene/linha-hero-surfista-01.jpg` | 4 — Hero | Abrir a peça; formato horizontal com espuma à esquerda como área livre para a headline | Surfista saindo do mar de camiseta de neoprene de manga longa e bermuda de neoprene, com a prancha debaixo do braço |
+| `imagens-design/00-linha-neoprene/linha-lifestyle-praia-01.jpg` | 11 — Fechamento | Provar que a linha tem três peças, sapatilhas incluídas | Surfista de costas na beira do mar usando a linha completa: camiseta de neoprene de manga longa, bermuda e sapatilhas nos pés |
+| `imagens-design/00-linha-neoprene/linha-lifestyle-surfista-02.jpg` | livre | Vertical de corpo inteiro da mesma sessão do hero | Surfista de corpo inteiro na beira do mar, de camiseta de neoprene de manga longa e bermuda de neoprene |
 | `imagens-design/01-camiseta-neoprene-cabo-frio/camiseta-packshot-frente.jpg` | 8 — Camiseta | Mostrar a peça | Camiseta de neoprene Cabo Frio de frente, manga longa e gola alta, na cor preta |
 | `imagens-design/01-camiseta-neoprene-cabo-frio/camiseta-packshot-costas.jpg` | 11 ou livre | Segundo ângulo da camiseta | Camiseta de neoprene Cabo Frio de costas, com recorte raglã e costura central |
 | `imagens-design/02-bermuda-neoprene-joaquina/bermuda-lifestyle-01.jpg` | 9 — Bermuda | Mostrar o caimento vestido | Bermuda de neoprene Joaquina vestida, comprimento acima do joelho, na cor preta |
@@ -34,11 +37,20 @@ neoprene de 1,5 mm — em meio a três produtos disputando atenção.
 | `imagens-design/03-sapatilha-esportiva-neoprene/sapatilha-packshot-solado.jpg` | 10 — Sapatilha | Provar o solado antiderrapante, que é o argumento da peça | Solado da sapatilha de neoprene visto de baixo, com a textura antiderrapante cobrindo toda a base |
 | `imagens-design/03-sapatilha-esportiva-neoprene/sapatilha-packshot-lateral.jpg` | 11 ou livre | Mostrar a forma da sapatilha | Sapatilha de neoprene de perfil, com cano na altura do tornozelo |
 
-Todas em JPG, largura de 1024 px, fundo claro ou praia. Os três produtos são pretos.
+Fotos em JPG. As três da linha têm 1200 px de largura; os packshots de produto, 1024 px.
+Os três produtos são pretos.
 
-**Faltando:** o logo da Use Zero Hora. `imagens-design/04-marca/` está vazia. O bloco de
-topo precisa dele em PNG com fundo transparente, ou o nome da marca em texto como
-alternativa.
+**Sobre o logo:** é a versão **negativa**, branca sobre fundo transparente. Ela só
+funciona sobre fundo escuro. Se o bloco de topo for claro, ou se o Gmail em dark mode
+inverter o fundo, o logo desaparece. A versão positiva ainda não existe no repositório —
+ou o topo é escuro, ou é preciso pedir a versão preta antes de fechar o layout.
+
+**Sobre as duas fotos de 10/08** (`linha-hero-surfista-01`, `linha-lifestyle-surfista-02`):
+chegaram com marca d'água de IA, já removida por corte, e as versões arquivadas estão
+limpas. Fica uma restrição: nelas, o texto de marca aplicado nas peças está embaralhado —
+o selo circular no peito tem letras ilegíveis e a etiqueta na coxa é um borrão. Na largura
+do email o selo fica com cerca de 30 px e lê como selo. **Não ampliar nem recortar o peito
+ou a etiqueta da coxa.**
 
 ### 2.2 Referências de conteúdo — NÃO entram no email
 
@@ -106,7 +118,7 @@ Intenção escrita como resultado a atingir, não como solução visual.
 
 | Bloco | Peso | Intenção |
 |---|---|---|
-| 3 — Topo | secundário | Identificar o remetente sem competir com o hero |
+| 3 — Topo | secundário | Identificar o remetente sem competir com o hero. O logo disponível é branco, então este bloco precisa de fundo escuro |
 | 4 — Hero | **dominante** | Ser a primeira coisa lida, e comunicar "linha de neoprene" mesmo se a foto não carregar |
 | 5 — Argumento | **dominante** | O 1,5 mm precisa ficar na cabeça de quem lê só esta frase |
 | 6 — CTA | dominante | Visível sem rolar em tela de celular, junto com o argumento |
@@ -125,8 +137,9 @@ o frete é grátis. Isso cai por volta do bloco 8.
 ## 5. Restrições técnicas de email
 
 - **Corpo de 600 px**, layout em tabela, CSS inline.
-- **Imagens hospedadas por URL.** As sete fotos precisam estar em URL pública antes do
-  disparo — cliente de email não carrega imagem local. Hospedagem ainda não definida.
+- **Imagens hospedadas por URL.** As nove fotos e o logo precisam estar em URL pública
+  antes do disparo — cliente de email não carrega imagem local. Hospedagem ainda não
+  definida.
 - **Texto alternativo em toda imagem**, com o texto da seção 2.1.
 - **A peça precisa funcionar sem imagem.** Imagem bloqueada é o estado default da
   primeira abertura em boa parte dos clientes. Se a headline, o argumento, o frete e os
@@ -189,8 +202,9 @@ cumprir é seu trabalho.
 
 ## 9. Pendências abertas
 
-1. **Logo da marca** — `imagens-design/04-marca/` está vazia.
-2. **Hospedagem das sete fotos** em URL pública.
+1. **Versão positiva (escura) do logo.** Só existe a branca. Sem ela, o bloco de topo
+   fica obrigado a fundo escuro.
+2. **Hospedagem das nove fotos e do logo** em URL pública, antes do disparo.
 3. **Tamanhos e numeração** — sem dado; a peça não responde "que tamanho eu compro".
 4. **Prova social** — nenhuma avaliação ou selo disponível.
 
