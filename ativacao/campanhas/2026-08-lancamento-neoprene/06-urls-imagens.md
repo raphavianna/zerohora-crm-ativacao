@@ -87,9 +87,17 @@ Tentei criar e publicar um tag apontando para esse commit, que resolveria a ques
 forma definitiva. **O push de tag falha neste ambiente** — o proxy git só aceita a branch
 designada.
 
-Então escolha uma destas três, antes ou logo depois do merge:
+**Decisão tomada em 10/08/2026: opção 1 — merge commit.**
 
-1. **Mergear o PR com "Create a merge commit"**, não com squash. Resolve sozinho.
+Ao mergear o PR #3, use o botão **"Create a merge commit"**. Não use "Squash and merge"
+nem "Rebase and merge": as duas reescrevem os commits, o SHA `12e3a94` fica fora da
+história da `main`, e as URLs das imagens passam a depender de retenção que o GitHub não
+documenta.
+
+As outras duas saídas ficam registradas como alternativa, caso a política do repositório
+mude e o squash vire obrigatório:
+
+1. **Mergear o PR com "Create a merge commit"**, não com squash. Resolve sozinho. **← escolhida**
 2. **Criar um tag pela interface do GitHub** apontando para `12e3a94`
    (Releases → Draft a new release → escolher o commit). Um tag mantém o commit
    alcançável para sempre, independente do que aconteça com a branch.
