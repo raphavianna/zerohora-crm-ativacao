@@ -212,15 +212,36 @@ cumprir é seu trabalho.
 
 ---
 
-## 9. Pendências abertas
+## 9. Restrições aceitas
 
-1. **Tamanhos e numeração** — sem dado; a peça não responde "que tamanho eu compro". É a
-   objeção mais cara que fica aberta.
-2. **Prova social** — nenhuma avaliação ou selo disponível.
-3. **Paleta em hexadecimal e tipografia da marca** — não estão no repositório. Na
-   ausência, a decisão de cor e tipo é sua.
+Confirmado em 10/08/2026: os três itens abaixo **não existem** e não vão chegar. Não são
+pendência, são o terreno. A peça foi desenhada para funcionar sem eles.
 
-Resolvidas: hospedagem das imagens (`06-urls-imagens.md`) e logo (três variações em
+**Sem grade de tamanhos.** O email não responde "que tamanho eu compro". A resposta mora
+na página do produto, depois do clique — e é mais um motivo para o CTA único levar à
+coleção, onde a pessoa encontra a informação no contexto certo. Não invente tabela de
+medidas nem faixa de numeração.
+
+**Sem prova social.** Nenhuma avaliação, selo ou depoimento. Quem faz o trabalho de
+credibilidade aqui é a especificidade técnica: 1,5 mm, open cell, Neoprene Shak, UV 50+,
+costura flat. Número verificável convence de um jeito diferente de depoimento, e é o que
+esta peça tem. Não invente selo, estrela nem contador de avaliação.
+
+**Sem paleta da marca em hexadecimal.** A decisão de cor é sua. Três observações para
+informar a escolha, sem restringi-la:
+
+- O logo veio **só em preto e branco** — não existe versão colorida no pacote.
+- Os três produtos são pretos, e todos os packshots têm fundo claro e neutro.
+- As fotos de linha são de fim de tarde, com laranja e dourado na água e na pele. A cor
+  quente da peça pode vir das fotos, sem precisar de paleta gráfica.
+
+Uma ressalva importante: a marca **usa cores vibrantes em outras frentes** — é assinatura
+dela destacar o surfista no mar. A ausência de paleta aqui significa que não temos o
+arquivo, não que a marca seja monocromática. Se você usar uma cor de destaque, ela é
+invenção sua, não a cor oficial: aponte isso na entrega, para virar decisão consciente em
+vez de precedente acidental.
+
+**Resolvidas:** hospedagem das imagens (`06-urls-imagens.md`) e logo (três variações em
 `imagens-design/04-marca/`).
 
 ---

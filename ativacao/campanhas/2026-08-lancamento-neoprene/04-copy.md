@@ -187,9 +187,14 @@ Ver a linha de neoprene: [link]
 
 ## Pendências
 
-1. **Tamanhos e numeração.** A copy não responde "que tamanho eu compro", porque o dado
-   não existe em nenhuma arte. É a objeção mais cara que a peça deixa aberta.
-2. **Prova social.** Nenhuma avaliação ou selo disponível para citar.
+1. **Tamanhos e numeração — não existem, confirmado em 10/08.** A copy não responde "que
+   tamanho eu compro". A troca aceita: a resposta está na página do produto, e o CTA único
+   leva justamente para lá. Nenhuma frase da peça deve sugerir que a informação está no
+   email.
+2. **Prova social — não existe, confirmado em 10/08.** Sem avaliação, selo ou depoimento.
+   A credibilidade da peça vem da especificidade técnica: 1,5 mm, open cell, Neoprene
+   Shak, UV 50+, costura flat. É por isso que a copy insiste em número e mecanismo em vez
+   de adjetivo — na falta de prova social, o dado verificável é a prova.
 3. **Nenhuma menção a UV fora da camiseta.** Proposital: só ela comprova. Se a bermuda e
    a sapatilha também tiverem proteção, é dado novo, e a copy do bloco 4 pode ganhar o
    argumento.

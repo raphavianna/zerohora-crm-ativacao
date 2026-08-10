@@ -267,16 +267,23 @@ Não são lacunas: são omissões deliberadas, confirmadas em 09/08/2026.
 Registrado aqui para que nenhuma etapa seguinte trate a ausência como esquecimento e
 tente preencher.
 
-## Lacunas abertas
+## Restrições aceitas
 
-1. **Grade de tamanhos e numeração.** Nenhuma arte traz. "Qual tamanho eu compro" é
-   objeção clássica em roupa de água colada ao corpo, e a peça não tem resposta.
-2. **Prova social.** Nenhuma avaliação, selo ou depoimento em nenhuma arte.
-3. **Proteção UV da bermuda.** A camiseta declara UV 50+; a bermuda não declara nada.
+Confirmado pelo time em 10/08/2026: os itens 1 e 2 abaixo **não existem** e não vão
+chegar. Deixam de ser lacuna e passam a ser terreno conhecido.
+
+1. **Grade de tamanhos e numeração — não temos.** "Qual tamanho eu compro" é objeção
+   clássica em roupa colada ao corpo. A peça não responde, e a resposta fica na página do
+   produto, depois do clique.
+2. **Prova social — não temos.** Nenhuma avaliação, selo ou depoimento. A credibilidade
+   fica por conta da especificidade técnica das fichas acima.
+
+## Lacunas ainda abertas
+1. **Proteção UV da bermuda.** A camiseta declara UV 50+; a bermuda não declara nada.
    Escrever "linha com proteção UV" seria estender à bermuda um atributo que só a
    camiseta comprova.
-4. **Ângulos de foto.** Sete fotografias para três produtos, e só a bermuda tem foto de
-   corpo inteiro. Se o layout pedir mais, é foto nova.
+2. **Ângulos de foto.** Nove fotografias para três produtos. Se o layout pedir mais, é
+   foto nova.
 
 ## Falhas nas artes de referência
 
