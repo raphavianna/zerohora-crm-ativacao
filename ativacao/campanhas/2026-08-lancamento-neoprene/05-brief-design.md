@@ -137,9 +137,10 @@ o frete é grátis. Isso cai por volta do bloco 8.
 ## 5. Restrições técnicas de email
 
 - **Corpo de 600 px**, layout em tabela, CSS inline.
-- **Imagens hospedadas por URL.** As nove fotos e o logo precisam estar em URL pública
-  antes do disparo — cliente de email não carrega imagem local. Hospedagem ainda não
-  definida.
+- **Imagens hospedadas por URL.** Resolvido: as URLs de produção estão em
+  `06-urls-imagens.md`, servidas pelo GitHub raw e **fixadas em commit SHA**. Copie a URL
+  inteira, com o SHA. Trocar o SHA por um nome de branch quebra todas as imagens de todos
+  os emails já entregues no dia em que a branch for apagada.
 - **Texto alternativo em toda imagem**, com o texto da seção 2.1.
 - **A peça precisa funcionar sem imagem.** Imagem bloqueada é o estado default da
   primeira abertura em boa parte dos clientes. Se a headline, o argumento, o frete e os
@@ -204,7 +205,7 @@ cumprir é seu trabalho.
 
 1. **Versão positiva (escura) do logo.** Só existe a branca. Sem ela, o bloco de topo
    fica obrigado a fundo escuro.
-2. **Hospedagem das nove fotos e do logo** em URL pública, antes do disparo.
+2. ~~Hospedagem das fotos~~ — resolvido em `06-urls-imagens.md`.
 3. **Tamanhos e numeração** — sem dado; a peça não responde "que tamanho eu compro".
 4. **Prova social** — nenhuma avaliação ou selo disponível.
 
