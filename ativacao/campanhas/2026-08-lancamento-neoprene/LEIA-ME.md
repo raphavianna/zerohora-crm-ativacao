@@ -15,6 +15,8 @@ Objetivo: **conversão no site próprio**, não tráfego. As artes de origem fic
 | Ordem dos produtos | Definida por volume de busca (Etapa 2). Sem dado de busca, vale o que a arte já sustenta. |
 | Features em destaque | Cruzamento entre dor de maior demanda nas buscas e o que a arte comprova. Feature sem lastro na arte não entra. |
 | Oferta | Frete grátis **incondicional** — sem valor mínimo, região ou prazo. Claro e visível na peça, e não é o mote. Fora do assunto, do preheader e da primeira frase. Sem ressalva nem letra miúda: não há condição a escrever. |
+| Fora da peça | **Sem preço e sem prazo de entrega.** Decisão editorial: o email vende pelo benefício de uso e pela tecnologia; o preço aparece na página do produto, depois do clique. |
+| Uso das artes | Fotografia de produto e lifestyle são **assets** e entram no email. Infográficos são **referência de conteúdo** e não entram: deles sai a informação, e o tratamento visual das features é criado pelo Claude Design. |
 | Data de disparo | **10/08/2026** |
 | Ferramenta de disparo | **Mailmeteor**, sobre Gmail, com lista em Google Sheets |
 | Handoff | Aqui sai documentação — fichas, arquitetura, copy, inventário de imagens e briefing. **O Claude Design faz layout, composição, posicionamento e o código.** |

@@ -38,11 +38,17 @@ Produza 05-brief-design.md, autossuficiente, com estas sete seções:
 1. **O trabalho** — a peça em cinco linhas: o que é, para quem vai, o que precisa
    acontecer depois da leitura, e o que faria a peça falhar.
 
-2. **Inventário de imagens** — uma tabela com toda imagem que a peça usa: caminho exato
-   em imagens-design/, o bloco onde entra, a função dela ali, o texto alternativo já
-   escrito na Etapa 4 e se ela é foto de produto, infográfico ou elemento de marca.
-   Caminho errado no inventário é o defeito mais caro deste documento, porque só aparece
-   no fim. Confira cada um contra o que existe em disco.
+2. **Inventário de imagens**, em duas tabelas separadas e rotuladas:
+
+   **Assets do email** — as fotografias que entram na peça: caminho exato em
+   imagens-design/, o bloco onde entram, a função ali e o texto alternativo escrito na
+   Etapa 4. Caminho errado aqui é o defeito mais caro do documento, porque só aparece
+   depois da fronteira. Confira cada um contra o que existe em disco.
+
+   **Referências de conteúdo** — os infográficos em `<produto>/referencia/`. Marque a
+   tabela, no título, como material que **não entra no email**: eles existem para o
+   Design ver como a marca já comunicou cada feature, e nada mais. O tratamento visual
+   das features na peça é criação do Design a partir da copy, não recorte dessas artes.
 
 3. **Copy por bloco, pronta para colar** — o texto final, na ordem, identificado pelo
    bloco. Sem comentário editorial no meio; comentário vai em nota apartada.
@@ -76,6 +82,7 @@ Produza 05-brief-design.md, autossuficiente, com estas sete seções:
 
 7. **O que não é negociável** — a ordem dos produtos e a justificativa de demanda por
    trás dela; o call-to-action único; o frete grátis visível e fora da posição de gancho;
+   a ausência de preço e de prazo de entrega, que é decisão editorial e não esquecimento;
    o texto exato da copy, cuja mudança volta para a Etapa 4 em vez de ser ajustada no
    layout.
 </tarefa>

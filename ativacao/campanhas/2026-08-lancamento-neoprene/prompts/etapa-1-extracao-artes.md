@@ -46,21 +46,28 @@ Depois, para a linha como um todo, extraia o que as artes de 00-linha-neoprene a
 sobre a tecnologia do neoprene e sobre a tabela de medidas.
 </o_que_extrair>
 
-<infograficos>
-Separe, entre tudo que você leu, o que deve **sobreviver como imagem** no email e o que
-deve **virar texto**.
+<dois_grupos_de_arte>
+Classifique cada arte em um dos dois grupos, porque eles têm destinos diferentes:
 
-Sobrevive como imagem quando a informação é comparativa, dimensional ou espacial — uma
-tabela de medidas, um corte que mostra as camadas do neoprene, um mapa de costura, uma
-grade de numeração. Traduzir isso para frase destrói a informação.
+**Asset** — fotografia de produto (packshot) ou de uso (lifestyle), sem texto aplicado.
+Entra no email. Registre o caminho exato e escreva o texto alternativo pela informação
+que a foto carrega, não pela aparência dela.
 
-Vira texto quando é uma afirmação única que cabe em uma linha — "secagem rápida",
-"proteção UV50". Manter isso como imagem esconde a mensagem de quem lê com imagem
-bloqueada, que é a maioria em primeira abertura.
+**Referência** — infográfico com título, ícones e texto sobre a imagem. **Não entra no
+email.** Serve para extrair a informação técnica que alimenta a copy. O tratamento visual
+das features é criado depois pelo Claude Design, a partir do conteúdo que você extrair
+aqui — nunca por colagem da arte pronta.
 
-Para cada infográfico que sobrevive, registre o caminho exato do arquivo e escreva o
-texto alternativo que descreve a informação que ele carrega, não a aparência dele.
-</infograficos>
+Consequência prática para esta etapa: de um infográfico, o que importa é o **texto e o
+número**, transcritos literalmente. A composição dele não precisa ser preservada nem
+descrita.
+</dois_grupos_de_arte>
+
+<falhas_na_arte>
+Registre erro de digitação, grafia divergente do mesmo nome entre duas artes, e logo ou
+identidade visual que destoe do resto do conjunto. São achados úteis mesmo quando a arte
+é só referência: um número errado na referência vira um número errado na copy.
+</falhas_na_arte>
 
 <lacunas>
 Quando um campo não aparecer em nenhuma arte do produto, escreva exatamente "não consta
@@ -88,8 +95,9 @@ uma seção final da linha:
 - "<frase literal>" — <arquivo>
 **Números disponíveis:** ...
 **Provas:** ...
-**Infográficos que sobrevivem como imagem:**
-| Arquivo | Informação que carrega | Texto alternativo |
+**Assets para o email:**
+| Arquivo | O que mostra | Texto alternativo |
+**Referências lidas (não vão para o email):** <caminhos>
 **Lacunas:** ...
 
 ## Linha neoprene — comum aos três

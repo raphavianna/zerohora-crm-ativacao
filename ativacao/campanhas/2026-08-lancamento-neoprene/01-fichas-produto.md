@@ -10,6 +10,32 @@ aparece em nenhuma arte está marcado como **não consta na arte**, sem inferên
 > renderiza em boa parte dos clientes de email — Outlook desktop e clientes antigos
 > mostram imagem quebrada.
 
+## Os dois grupos de arte
+
+O acervo se divide em dois, com destinos diferentes:
+
+**Assets do email — 7 fotografias.** Packshots e lifestyle, sem texto aplicado. São as
+únicas imagens que entram na peça.
+
+| Arquivo | Produto | O que mostra |
+|---|---|---|
+| `00-linha-neoprene/linha-lifestyle-praia-01.jpg` | Linha | Surfista de costas na praia usando os três produtos, com prancha e leash |
+| `01-camiseta-neoprene-cabo-frio/camiseta-packshot-frente.jpg` | Camiseta | Frente em modelo, gola alta, etiqueta OH circular no peito |
+| `01-camiseta-neoprene-cabo-frio/camiseta-packshot-costas.jpg` | Camiseta | Costas em modelo, recorte raglã e costura central |
+| `02-bermuda-neoprene-joaquina/bermuda-packshot-lateral.jpg` | Bermuda | Lateral em modelo, close do caimento e da etiqueta emborrachada |
+| `02-bermuda-neoprene-joaquina/bermuda-lifestyle-01.jpg` | Bermuda | Corpo inteiro em modelo, ao ar livre |
+| `03-sapatilha-esportiva-neoprene/sapatilha-packshot-lateral.jpg` | Sapatilha | Perfil da peça em fundo claro |
+| `03-sapatilha-esportiva-neoprene/sapatilha-packshot-solado.jpg` | Sapatilha | Solado voltado para a câmera, textura antiderrapante visível |
+
+**Referências de conteúdo — 9 infográficos**, em `<produto>/referencia/`. Trazem título,
+ícones e texto sobre a foto. **Não entram no email.** Servem para extrair a informação
+técnica que alimenta a copy e para o Design ver como a marca já comunicou cada feature.
+O tratamento visual das features na peça é criação do Design, não recorte destas artes.
+
+Consequência a registrar: a peça tem **7 fotografias para três produtos**, e a bermuda é
+a única com foto de corpo inteiro. Se o layout pedir mais ângulos, é pedido de foto nova,
+não de recorte de infográfico.
+
 ---
 
 ## Assinatura da linha
@@ -73,11 +99,11 @@ mangas, recortes laterais e gola em poliamida premium com elastano; punhos em ne
 - "Etiqueta emborrachada — não desbota: proteção UV que mantém a cor e o relevo por muito
   mais tempo" — `etiqueta`
 
-**Infográficos que sobrevivem como imagem:** os cinco. São peças de corte anatômico —
-apontam para uma parte específica da roupa (gola, punho, manga, etiqueta) e mostram a
-textura do material. Traduzir isso para texto perde a informação de *onde* na peça.
+**Assets:** `camiseta-packshot-frente.jpg`, `camiseta-packshot-costas.jpg`.
+**Referências lidas:** os cinco infográficos em `referencia/`.
 
-**Lacunas:** preço, grade de tamanhos, tabela de medidas, prazo de envio, prova social.
+**Lacunas:** grade de tamanhos, tabela de medidas, prova social. (Preço e prazo de
+entrega ficam fora da peça por decisão editorial, não por falta de dado.)
 
 ---
 
@@ -120,13 +146,13 @@ no cós e costura flat.
   uso intenso" — `etiqueta`
 - "Não descasca nem racha" — `etiqueta`
 
-**Infográficos que sobrevivem como imagem:** os três. O de tecnologia é o mais forte da
-campanha inteira — mostra dois materiais diferentes em duas partes da peça (corpo e
-barra) com macro do tecido ao lado. É informação espacial e comparativa; vira nada em
-texto.
+**Assets:** `bermuda-packshot-lateral.jpg`, `bermuda-lifestyle-01.jpg`.
+**Referências lidas:** os três infográficos em `referencia/`. O de tecnologia é o mais
+rico do acervo — separa corpo e barra em dois materiais distintos, com macro de cada
+tecido. É a melhor fonte de conteúdo da campanha, e vale como referência de como a marca
+já explicou essa dupla construção.
 
-**Lacunas:** preço, grade de tamanhos, tabela de medidas, prazo de envio, prova social,
-proteção UV.
+**Lacunas:** grade de tamanhos, tabela de medidas, prova social, proteção UV.
 
 ---
 
@@ -162,14 +188,15 @@ proteção UV.
 - "A combinação de três tecidos técnicos proporciona o equilíbrio perfeito entre
   proteção, conforto, aderência e liberdade de movimento" — `tecnologia`
 
-**Infográficos que sobrevivem como imagem:** `sapatilha-infografico-tecnologia.jpg` é o
-melhor exemplar do lote — numera três pontos sobre a foto do produto e liga cada número
-a um macro do tecido. É pura informação espacial.
+**Assets:** `sapatilha-packshot-lateral.jpg`, `sapatilha-packshot-solado.jpg`.
+**Referências lidas:** `referencia/sapatilha-infografico-tecnologia.jpg`, que numera três
+pontos sobre a foto e liga cada um a um macro de tecido.
 
-**Atenção:** essa arte tem um erro de digitação — "PROTEÇÃO DENTRO E **FORAA** D'ÁGUA".
-Se ela entrar no email como está, o erro vai junto.
+**Falha registrada na arte:** "PROTEÇÃO DENTRO E **FORAA** D'ÁGUA". Como o infográfico é
+referência e não asset, o erro não chega ao email — mas vale corrigir na arte, que
+provavelmente circula em outros canais.
 
-**Lacunas:** preço, numeração disponível, prazo de envio, prova social.
+**Lacunas:** numeração disponível, prova social.
 
 ---
 
@@ -201,20 +228,33 @@ de marca dentro da própria peça.
 
 ---
 
-## Lacunas que bloqueiam a copy
+## Fora da peça por decisão editorial
 
-Ordenadas pelo que mais trava a peça:
+Não são lacunas: são omissões deliberadas, confirmadas em 09/08/2026.
 
-1. **Preço dos três produtos.** Nenhuma arte traz. Sem isso, o email vende sem âncora de
-   valor — o que é possível, mas custa conversão num lançamento.
-2. **Grade de tamanhos e numeração.** Nenhuma arte traz. "Qual tamanho eu compro" é
+- **Preço.** O email vende a linha pelo benefício de uso e pela tecnologia; o preço
+  aparece na página do produto, depois do clique.
+- **Prazo de entrega.** Fora da peça.
+
+Registrado aqui para que nenhuma etapa seguinte trate a ausência como esquecimento e
+tente preencher.
+
+## Lacunas abertas
+
+1. **Grade de tamanhos e numeração.** Nenhuma arte traz. "Qual tamanho eu compro" é
    objeção clássica em roupa de água colada ao corpo, e a peça não tem resposta.
-3. **Prazo de envio.** A marca comunica envio em até 24h úteis, mas isso não está em
-   nenhuma arte desta linha — logo, pela regra de evidência, não entra no email sem
-   confirmação sua.
-4. **Prova social.** Nenhuma avaliação, selo ou depoimento.
-5. **Proteção UV da bermuda.** A camiseta declara UV 50+; a bermuda não declara nada.
+2. **Prova social.** Nenhuma avaliação, selo ou depoimento em nenhuma arte.
+3. **Proteção UV da bermuda.** A camiseta declara UV 50+; a bermuda não declara nada.
    Escrever "linha com proteção UV" seria estender à bermuda um atributo que só a
    camiseta comprova.
-6. **Grafia do fornecedor do neoprene**: "Inneo" ou "Inrneo"? A arte usa as duas.
-7. **Typo na arte da sapatilha**: "FORAA D'ÁGUA".
+4. **Ângulos de foto.** Sete fotografias para três produtos, e só a bermuda tem foto de
+   corpo inteiro. Se o layout pedir mais, é foto nova.
+
+## Falhas nas artes de referência
+
+Não chegam ao email, porque as artes de referência não entram na peça. Valem correção
+porque provavelmente circulam em outros canais.
+
+- **Grafia do fornecedor do neoprene**: a arte da camiseta escreve "Inneo Brasil" na
+  abertura e "Inrneo Brasil" no bullet.
+- **Typo na arte da sapatilha**: "PROTEÇÃO DENTRO E FORAA D'ÁGUA".

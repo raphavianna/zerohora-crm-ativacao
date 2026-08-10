@@ -7,6 +7,22 @@ produto que entrar na copy do email precisa existir aqui ou na página do produt
 > Regra herdada do projeto: anúncio e email só prometem o que a arte ou a página do
 > produto sustentam. Nada de benefício inventado.
 
+## Os dois grupos de arte
+
+A pasta de cada produto separa material com destinos diferentes:
+
+**Na raiz da pasta do produto — assets.** Fotografia de produto e de uso, sem texto
+aplicado. São as imagens que entram nas peças.
+
+**Em `<produto>/referencia/` — referências de conteúdo.** Infográficos com título,
+ícones e texto sobre a foto. **Não entram nas peças.** Deles sai a informação técnica
+que alimenta a copy, e eles mostram como a marca já comunicou cada feature. O tratamento
+visual das features em cada peça é criado pelo design a partir dessa informação, nunca
+por colagem da arte pronta.
+
+Se você subir um infográfico na raiz por engano, ele acaba tratado como asset. Na dúvida:
+tem texto aplicado sobre a imagem, vai para `referencia/`.
+
 ## Como subir uma arte
 
 1. Escolha a pasta do produto (ou `00-linha-neoprene` se a arte fala da linha inteira).

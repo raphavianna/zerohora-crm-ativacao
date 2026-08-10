@@ -56,7 +56,23 @@ só para a primeira:
    água, não o sentimento que ela promete.
 6. Um único call-to-action por email, direto para usezerohora.com.br.
 7. Português do Brasil impecável. Sem clichê de propaganda.
+8. A peça não cita preço e não cita prazo de entrega. É decisão editorial da campanha,
+   não falta de dado: o email vende a linha pelo benefício de uso e pela tecnologia, e o
+   preço aparece na página do produto, depois do clique.
 </regras_de_copy>
+
+<uso_das_artes>
+As artes se dividem em dois grupos, e a diferença é operacional:
+
+- **Fotografia de produto e lifestyle** — packshots e fotos de uso. São os assets que
+  entram no email.
+- **Infográficos de feature** — as peças com título, ícones e texto sobre a foto. São
+  **fonte de conteúdo, não asset**. Delas sai a informação técnica que alimenta a copy;
+  o tratamento visual das features é criado pelo Claude Design a partir dessa
+  informação, e não por colagem da arte pronta.
+
+Nenhum infográfico existente é colado no email.
+</uso_das_artes>
 
 <regra_de_evidencia>
 Todo número, medida, material, tecnologia, cor, tamanho e preço que aparecer na peça sai

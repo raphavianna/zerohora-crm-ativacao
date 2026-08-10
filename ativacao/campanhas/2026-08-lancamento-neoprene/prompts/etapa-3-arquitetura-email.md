@@ -43,8 +43,11 @@ elas:
 - Os três produtos aparecem, na ordem que a Decisão 1 da Etapa 2 estabeleceu.
 - O frete grátis tem bloco próprio, visível, posicionado depois do primeiro argumento de
   produto. Ele não abre a peça e não é o mote.
-- Os infográficos que a Etapa 1 marcou como "sobrevivem como imagem" entram como imagem.
-  Os demais viram texto.
+- As únicas imagens disponíveis são as que a Etapa 1 classificou como **asset**
+  (fotografia de produto e de uso). Os infográficos existentes são referência de conteúdo
+  e não entram na peça: onde a arquitetura pedir destaque de feature, o bloco descreve a
+  informação a destacar, e o tratamento visual dela é criado pelo Claude Design.
+- A peça não cita preço nem prazo de entrega. Nenhum bloco existe para isso.
 - A dobra inicial precisa comunicar lançamento de linha de neoprene mesmo sem imagem
   carregada.
 </restricoes_da_peca>
