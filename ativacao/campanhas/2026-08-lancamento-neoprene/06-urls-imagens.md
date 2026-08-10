@@ -61,6 +61,43 @@ regerada com o SHA novo, e o HTML atualizado antes do disparo.
 
 ---
 
+## Verificação das 10 URLs — 10/08/2026
+
+Todas testadas uma a uma. Nenhuma serve WebP, que é o formato que quebra no Outlook.
+
+| Resultado | Arquivos |
+|---|---|
+| `200` + `image/jpeg` | as 9 fotografias |
+| `200` + `image/png` | o logo |
+
+---
+
+## Ação obrigatória antes do merge: garantir que o SHA sobreviva
+
+O commit `12e3a94` está hoje só na branch de trabalho. O que acontece com ele depende de
+como o PR for mergeado:
+
+- **Merge commit** — o commit entra na história da `main` e as URLs valem para sempre.
+  **É a opção segura.**
+- **Squash ou rebase** — o commit não entra na história da `main`. Ele costuma continuar
+  resolvendo pelo ref que o GitHub mantém do PR, mas isso é comportamento de retenção não
+  documentado, e não é coisa em que se aposte uma campanha inteira que já foi entregue.
+
+Tentei criar e publicar um tag apontando para esse commit, que resolveria a questão de
+forma definitiva. **O push de tag falha neste ambiente** — o proxy git só aceita a branch
+designada.
+
+Então escolha uma destas três, antes ou logo depois do merge:
+
+1. **Mergear o PR com "Create a merge commit"**, não com squash. Resolve sozinho.
+2. **Criar um tag pela interface do GitHub** apontando para `12e3a94`
+   (Releases → Draft a new release → escolher o commit). Um tag mantém o commit
+   alcançável para sempre, independente do que aconteça com a branch.
+3. **Regerar esta lista com um SHA da `main` depois do merge** e atualizar o HTML antes
+   do disparo. Só funciona se o email ainda não tiver sido enviado.
+
+---
+
 ## Ressalvas honestas sobre esta escolha
 
 **O `raw.githubusercontent.com` não é um CDN.** O GitHub não o oferece como serviço de
