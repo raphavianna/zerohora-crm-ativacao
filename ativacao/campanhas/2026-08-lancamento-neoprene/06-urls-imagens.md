@@ -39,20 +39,22 @@ de hospedar no GitHub sem deixar uma bomba-relógio no email.
 
 ---
 
-## URLs de produção — commit `12e3a94`
+## URLs de produção — commit `089cbe5`
 
 | Arquivo | Peso | URL |
 |---|---|---|
-| `linha-hero-surfista-01.jpg` | 123 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/12e3a949604025015185a31c1ddecbec0b6dc4a0/imagens-design/00-linha-neoprene/linha-hero-surfista-01.jpg |
-| `linha-lifestyle-praia-01.jpg` | 194 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/12e3a949604025015185a31c1ddecbec0b6dc4a0/imagens-design/00-linha-neoprene/linha-lifestyle-praia-01.jpg |
-| `linha-lifestyle-surfista-02.jpg` | 233 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/12e3a949604025015185a31c1ddecbec0b6dc4a0/imagens-design/00-linha-neoprene/linha-lifestyle-surfista-02.jpg |
-| `camiseta-packshot-costas.jpg` | 128 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/12e3a949604025015185a31c1ddecbec0b6dc4a0/imagens-design/01-camiseta-neoprene-cabo-frio/camiseta-packshot-costas.jpg |
-| `camiseta-packshot-frente.jpg` | 137 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/12e3a949604025015185a31c1ddecbec0b6dc4a0/imagens-design/01-camiseta-neoprene-cabo-frio/camiseta-packshot-frente.jpg |
-| `bermuda-lifestyle-01.jpg` | 415 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/12e3a949604025015185a31c1ddecbec0b6dc4a0/imagens-design/02-bermuda-neoprene-joaquina/bermuda-lifestyle-01.jpg |
-| `bermuda-packshot-lateral.jpg` | 159 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/12e3a949604025015185a31c1ddecbec0b6dc4a0/imagens-design/02-bermuda-neoprene-joaquina/bermuda-packshot-lateral.jpg |
-| `sapatilha-packshot-lateral.jpg` | 69 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/12e3a949604025015185a31c1ddecbec0b6dc4a0/imagens-design/03-sapatilha-esportiva-neoprene/sapatilha-packshot-lateral.jpg |
-| `sapatilha-packshot-solado.jpg` | 105 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/12e3a949604025015185a31c1ddecbec0b6dc4a0/imagens-design/03-sapatilha-esportiva-neoprene/sapatilha-packshot-solado.jpg |
-| `logo-use-zero-hora-branco.png` | 29 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/12e3a949604025015185a31c1ddecbec0b6dc4a0/imagens-design/04-marca/logo-use-zero-hora-branco.png |
+| `linha-hero-surfista-01.jpg` | 123 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/089cbe5dde2521ae712a3897d79d50e618098f2f/imagens-design/00-linha-neoprene/linha-hero-surfista-01.jpg |
+| `linha-lifestyle-praia-01.jpg` | 194 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/089cbe5dde2521ae712a3897d79d50e618098f2f/imagens-design/00-linha-neoprene/linha-lifestyle-praia-01.jpg |
+| `linha-lifestyle-surfista-02.jpg` | 233 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/089cbe5dde2521ae712a3897d79d50e618098f2f/imagens-design/00-linha-neoprene/linha-lifestyle-surfista-02.jpg |
+| `camiseta-packshot-costas.jpg` | 128 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/089cbe5dde2521ae712a3897d79d50e618098f2f/imagens-design/01-camiseta-neoprene-cabo-frio/camiseta-packshot-costas.jpg |
+| `camiseta-packshot-frente.jpg` | 137 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/089cbe5dde2521ae712a3897d79d50e618098f2f/imagens-design/01-camiseta-neoprene-cabo-frio/camiseta-packshot-frente.jpg |
+| `bermuda-lifestyle-01.jpg` | 415 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/089cbe5dde2521ae712a3897d79d50e618098f2f/imagens-design/02-bermuda-neoprene-joaquina/bermuda-lifestyle-01.jpg |
+| `bermuda-packshot-lateral.jpg` | 159 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/089cbe5dde2521ae712a3897d79d50e618098f2f/imagens-design/02-bermuda-neoprene-joaquina/bermuda-packshot-lateral.jpg |
+| `sapatilha-packshot-lateral.jpg` | 69 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/089cbe5dde2521ae712a3897d79d50e618098f2f/imagens-design/03-sapatilha-esportiva-neoprene/sapatilha-packshot-lateral.jpg |
+| `sapatilha-packshot-solado.jpg` | 105 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/089cbe5dde2521ae712a3897d79d50e618098f2f/imagens-design/03-sapatilha-esportiva-neoprene/sapatilha-packshot-solado.jpg |
+| `logo-use-zero-hora-branco.png` | 29 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/089cbe5dde2521ae712a3897d79d50e618098f2f/imagens-design/04-marca/logo-use-zero-hora-branco.png |
+| `logo-use-zero-hora-preto.png` | 31 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/089cbe5dde2521ae712a3897d79d50e618098f2f/imagens-design/04-marca/logo-use-zero-hora-preto.png |
+| `logo-use-zero-hora-redondo.png` | 10 KB | https://raw.githubusercontent.com/raphavianna/zerohora-crm-ativacao/089cbe5dde2521ae712a3897d79d50e618098f2f/imagens-design/04-marca/logo-use-zero-hora-redondo.png |
 **Regra de uso:** copie a URL inteira, com o SHA. Nunca troque o SHA por um nome de
 branch para "ficar mais limpo" — é exatamente aí que a peça quebra.
 
@@ -74,7 +76,7 @@ Todas testadas uma a uma. Nenhuma serve WebP, que é o formato que quebra no Out
 
 ## Ação obrigatória antes do merge: garantir que o SHA sobreviva
 
-O commit `12e3a94` está hoje só na branch de trabalho. O que acontece com ele depende de
+O commit `089cbe5` está hoje só na branch de trabalho. O que acontece com ele depende de
 como o PR for mergeado:
 
 - **Merge commit** — o commit entra na história da `main` e as URLs valem para sempre.
@@ -90,7 +92,7 @@ designada.
 **Decisão tomada em 10/08/2026: opção 1 — merge commit.**
 
 Ao mergear o PR #3, use o botão **"Create a merge commit"**. Não use "Squash and merge"
-nem "Rebase and merge": as duas reescrevem os commits, o SHA `12e3a94` fica fora da
+nem "Rebase and merge": as duas reescrevem os commits, o SHA `089cbe5` fica fora da
 história da `main`, e as URLs das imagens passam a depender de retenção que o GitHub não
 documenta.
 
@@ -98,7 +100,7 @@ As outras duas saídas ficam registradas como alternativa, caso a política do r
 mude e o squash vire obrigatório:
 
 1. **Mergear o PR com "Create a merge commit"**, não com squash. Resolve sozinho. **← escolhida**
-2. **Criar um tag pela interface do GitHub** apontando para `12e3a94`
+2. **Criar um tag pela interface do GitHub** apontando para `089cbe5`
    (Releases → Draft a new release → escolher o commit). Um tag mantém o commit
    alcançável para sempre, independente do que aconteça com a branch.
 3. **Regerar esta lista com um SHA da `main` depois do merge** e atualizar o HTML antes

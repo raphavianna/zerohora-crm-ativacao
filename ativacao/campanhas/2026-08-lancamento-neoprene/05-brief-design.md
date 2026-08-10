@@ -26,7 +26,9 @@ neoprene de 1,5 mm — em meio a três produtos disputando atenção.
 
 | Arquivo | Bloco | Função | Texto alternativo |
 |---|---|---|---|
-| `imagens-design/04-marca/logo-use-zero-hora-branco.png` | 3 — Topo | Identificar o remetente | Use Zero Hora |
+| `imagens-design/04-marca/logo-use-zero-hora-branco.png` | 3 — Topo | **Recomendado.** Logo com lettering, branco — exige header escuro | Use Zero Hora |
+| `imagens-design/04-marca/logo-use-zero-hora-redondo.png` | 3 — Topo | Alternativa: símbolo dentro de disco branco próprio, legível sobre qualquer fundo, sem lettering | Use Zero Hora |
+| `imagens-design/04-marca/logo-use-zero-hora-preto.png` | 3 — Topo | Alternativa: logo com lettering, preto — exige header claro | Use Zero Hora |
 | `imagens-design/00-linha-neoprene/linha-hero-surfista-01.jpg` | 4 — Hero | Abrir a peça; formato horizontal com espuma à esquerda como área livre para a headline | Surfista saindo do mar de camiseta de neoprene de manga longa e bermuda de neoprene, com a prancha debaixo do braço |
 | `imagens-design/00-linha-neoprene/linha-lifestyle-praia-01.jpg` | 11 — Fechamento | Provar que a linha tem três peças, sapatilhas incluídas | Surfista de costas na beira do mar usando a linha completa: camiseta de neoprene de manga longa, bermuda e sapatilhas nos pés |
 | `imagens-design/00-linha-neoprene/linha-lifestyle-surfista-02.jpg` | livre | Vertical de corpo inteiro da mesma sessão do hero | Surfista de corpo inteiro na beira do mar, de camiseta de neoprene de manga longa e bermuda de neoprene |
@@ -40,10 +42,19 @@ neoprene de 1,5 mm — em meio a três produtos disputando atenção.
 Fotos em JPG. As três da linha têm 1200 px de largura; os packshots de produto, 1024 px.
 Os três produtos são pretos.
 
-**Sobre o logo:** é a versão **negativa**, branca sobre fundo transparente. Ela só
-funciona sobre fundo escuro. Se o bloco de topo for claro, ou se o Gmail em dark mode
-inverter o fundo, o logo desaparece. A versão positiva ainda não existe no repositório —
-ou o topo é escuro, ou é preciso pedir a versão preta antes de fechar o layout.
+**Sobre o logo — três opções, a escolha é sua.** Todas em PNG com alfa real.
+
+- **Branco (recomendado).** Traz o nome da marca por extenso e exige header escuro. O
+  dark mode do Gmail costuma escurecer fundo claro e deixar fundo já escuro em paz, então
+  header escuro com logo branco é o arranjo que menos depende de como o cliente trata cor.
+- **Redondo.** Só o símbolo, dentro de um disco branco próprio, o que o torna legível
+  sobre qualquer fundo, claro ou escuro. Perde o lettering. É a escolha se você quiser
+  header claro sem se preocupar com dark mode.
+- **Preto.** Lettering completo para header claro, com a ressalva de que o dark mode pode
+  escurecer o fundo do bloco e sumir com ele.
+
+O texto alternativo é `Use Zero Hora` nos três, então a marca chega mesmo com imagem
+bloqueada.
 
 **Sobre as duas fotos de 10/08** (`linha-hero-surfista-01`, `linha-lifestyle-surfista-02`):
 chegaram com marca d'água de IA, já removida por corte, e as versões arquivadas estão
@@ -118,7 +129,7 @@ Intenção escrita como resultado a atingir, não como solução visual.
 
 | Bloco | Peso | Intenção |
 |---|---|---|
-| 3 — Topo | secundário | Identificar o remetente sem competir com o hero. O logo disponível é branco, então este bloco precisa de fundo escuro |
+| 3 — Topo | secundário | Identificar o remetente sem competir com o hero. Existem logos para header claro e escuro, então o fundo é decisão sua |
 | 4 — Hero | **dominante** | Ser a primeira coisa lida, e comunicar "linha de neoprene" mesmo se a foto não carregar |
 | 5 — Argumento | **dominante** | O 1,5 mm precisa ficar na cabeça de quem lê só esta frase |
 | 6 — CTA | dominante | Visível sem rolar em tela de celular, junto com o argumento |
@@ -203,11 +214,14 @@ cumprir é seu trabalho.
 
 ## 9. Pendências abertas
 
-1. **Versão positiva (escura) do logo.** Só existe a branca. Sem ela, o bloco de topo
-   fica obrigado a fundo escuro.
-2. ~~Hospedagem das fotos~~ — resolvido em `06-urls-imagens.md`.
-3. **Tamanhos e numeração** — sem dado; a peça não responde "que tamanho eu compro".
-4. **Prova social** — nenhuma avaliação ou selo disponível.
+1. **Tamanhos e numeração** — sem dado; a peça não responde "que tamanho eu compro". É a
+   objeção mais cara que fica aberta.
+2. **Prova social** — nenhuma avaliação ou selo disponível.
+3. **Paleta em hexadecimal e tipografia da marca** — não estão no repositório. Na
+   ausência, a decisão de cor e tipo é sua.
+
+Resolvidas: hospedagem das imagens (`06-urls-imagens.md`) e logo (três variações em
+`imagens-design/04-marca/`).
 
 ---
 
