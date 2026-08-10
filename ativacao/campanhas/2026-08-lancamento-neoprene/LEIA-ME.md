@@ -59,6 +59,8 @@ na peça — vira pendência registrada.
 | Arquitetura do email | `03-arquitetura-email.md` |
 | Copy final por bloco | `04-copy.md` |
 | Pacote de handoff para o Claude Design | `05-brief-design.md` |
+| URLs de produção das imagens | `06-urls-imagens.md` |
+| **Prompt pronto para colar no Claude Design** | `07-prompt-claude-design.md` |
 | QA da peça entregue | `07-qa-disparo.md` |
 
 ## Etapas

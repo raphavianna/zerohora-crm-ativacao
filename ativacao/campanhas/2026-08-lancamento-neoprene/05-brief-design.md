@@ -248,55 +248,9 @@ vez de precedente acidental.
 
 ## Prompt para colar no Claude Design
 
-```
-Você vai desenhar e codificar um email HTML de lançamento para a Use Zero Hora, marca D2C
-brasileira de surf e beachwear. A peça lança uma linha de neoprene com três produtos:
-camiseta Cabo Frio, bermuda Joaquina e sapatilha esportiva.
+Está em `07-prompt-claude-design.md`, **autossuficiente**: com as URLs completas das
+imagens, a copy inteira e todas as restrições embutidas.
 
-O briefing completo — copy final, inventário de imagens com texto alternativo, hierarquia
-por bloco e restrições técnicas — está em
-ativacao/campanhas/2026-08-lancamento-neoprene/05-brief-design.md.
-As imagens estão em imagens-design/, organizadas por produto.
-
-<seu_escopo>
-Layout, composição, posicionamento, grid, paleta, tipografia, ritmo visual, tratamento
-visual das features e o código HTML são decisões suas. O briefing diz o que cada bloco
-precisa cumprir; como ele cumpre é o seu trabalho.
-</seu_escopo>
-
-<atencao_as_pastas>
-Em imagens-design/<produto>/ estão os assets: fotografia de produto e de uso, que entram
-no email. Em imagens-design/<produto>/referencia/ estão infográficos com texto aplicado,
-que NÃO entram no email — eles mostram como a marca já comunicou cada feature. O
-tratamento visual das features nesta peça é criação sua a partir da copy, não recorte
-dessas artes.
-</atencao_as_pastas>
-
-<o_que_ja_esta_decidido>
-A ordem dos produtos, o texto da copy, o CTA único, a posição do frete grátis e a
-ausência de preço e prazo de entrega estão fechados. Se algum deles atrapalhar o layout
-que você quer fazer, aponte o conflito em vez de resolvê-lo por conta própria.
-</o_que_ja_esta_decidido>
-
-<restricao_dominante>
-O disparo é por Mailmeteor sobre Gmail: o HTML precisa ficar abaixo de 102 KB, senão o
-Gmail corta a peça no meio e esconde o último CTA. Trabalhe com alvo de 80 KB — a folga
-cobre o pixel de rastreio e a reescrita de link que a ferramenta injeta no envio.
-
-A conta é de HTML e CSS inline; imagem hospedada por URL não entra nela. Os três blocos
-de produto têm estrutura idêntica, que é o padrão que multiplica CSS — vale resolver isso
-no desenho do markup, não no fim por compressão. Informe o tamanho final do HTML.
-</restricao_dominante>
-
-<restricoes_de_email>
-- Corpo de 600 px, layout em tabela, CSS inline
-- Imagens por URL, com texto alternativo em todas
-- A mensagem central chega mesmo com imagem bloqueada
-- Dark mode legível: os três produtos são pretos, e o contorno deles some em fundo escuro
-- Um único destino de clique, com UTM consistente
-- Merge tags com valor de fallback e lugar reservado para o link de descadastro
-</restricoes_de_email>
-
-Entregue o layout e o HTML. Aponte, ao final, qualquer ponto do briefing que tenha
-conflitado com uma decisão visual.
-```
+Precisa ser autossuficiente porque o Claude Design não tem acesso a este repositório —
+um prompt que referencie caminho de arquivo daqui simplesmente não resolve nada do outro
+lado.
