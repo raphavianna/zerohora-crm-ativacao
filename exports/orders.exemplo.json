@@ -1,0 +1,7 @@
+[
+  { "order_id": 1, "user_login": "surfista_jc", "email": "jc@exemplo.com", "phone": "+55 48 99999-1111", "date_confirmed": 1767225600 },
+  { "order_id": 2, "user_login": "", "email": "maria@exemplo.com", "phone": "", "date_confirmed": 1767312000 },
+  { "order_id": 3, "user_login": "surfista_jc", "email": "jc@exemplo.com", "phone": "", "date_confirmed": 1767398400 },
+  { "order_id": 4, "user_login": "ml_comprador_42", "email": "", "phone": "48 98888-2222", "date_confirmed": 1767484800 },
+  { "order_id": 5, "user_login": "", "email": "", "phone": "" }
+]

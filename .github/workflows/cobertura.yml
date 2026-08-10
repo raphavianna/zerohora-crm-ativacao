@@ -1,0 +1,63 @@
+name: Gera cobertura de contato (Baselinker)
+
+# Extrai contato do Baselinker (getOrders) e gera o mapa de cobertura (booleans por
+# id_cliente) que o painel consome. PII só em memória; o artefato tem só booleans.
+# Publicação no painel é opcional (requer PAINEL_PUSH_TOKEN com write no painel).
+on:
+  workflow_dispatch:
+    inputs:
+      desde:
+        description: "Dia inicial (yyyy-mm-dd)"
+        default: "2026-01-01"
+      assume_consent:
+        description: "Canais com consentimento assumido (ex.: email,whatsapp). Vazio = nenhum (LGPD)."
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Gerar cobertura
+        env:
+          BASELINKER_API_TOKEN: ${{ secrets.BASELINKER_API_TOKEN }}
+          ASSUME: ${{ github.event.inputs.assume_consent }}
+          DESDE: ${{ github.event.inputs.desde }}
+        run: |
+          FLAGS=""
+          if [ -n "$ASSUME" ]; then FLAGS="--assume-consent $ASSUME"; fi
+          node cobertura/extrair_baselinker.mjs --desde "$DESDE" $FLAGS --out contatos_cobertura.json
+
+      - name: Upload artifact (só booleans)
+        uses: actions/upload-artifact@v4
+        with:
+          name: contatos_cobertura
+          path: contatos_cobertura.json
+
+      - name: Publicar no painel (opcional)
+        env:
+          PAINEL_PUSH_TOKEN: ${{ secrets.PAINEL_PUSH_TOKEN }}
+        run: |
+          if [ -z "$PAINEL_PUSH_TOKEN" ]; then
+            echo "Sem PAINEL_PUSH_TOKEN — pulando publicação. Baixe o artifact e commite em public/data/ do painel."
+            exit 0
+          fi
+          git clone --depth 1 "https://x-access-token:${PAINEL_PUSH_TOKEN}@github.com/raphavianna/zerohora-painel" painel
+          cp contatos_cobertura.json painel/public/data/contatos_cobertura.json
+          cd painel
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/contatos_cobertura.json
+          if git diff --cached --quiet; then
+            echo "Sem mudança na cobertura."
+          else
+            git commit -m "dados: atualiza contatos_cobertura.json (booleans, zero-PII)"
+            git push
+          fi
