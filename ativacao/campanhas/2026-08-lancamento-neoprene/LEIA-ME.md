@@ -61,28 +61,27 @@ na peça — vira pendência registrada.
 | Pacote de handoff para o Claude Design | `05-brief-design.md` |
 | URLs de produção das imagens | `06-urls-imagens.md` |
 | **Prompt pronto para colar no Claude Design** | `07-prompt-claude-design.md` |
-| QA da peça entregue | `07-qa-disparo.md` |
+| QA da peça entregue | `08-qa-disparo.md` |
 
 ## Etapas
 
 | # | Etapa | Onde roda | Estado |
 |---|---|---|---|
 | 0 | Fundação — estrutura de pastas por produto | Claude Code | pronto |
-| 1 | Extração das artes → ficha por produto | Claude Code | aguarda upload das artes |
-| 2 | Demanda de busca → ordem dos produtos e das features | Claude Code + Semrush | **bloqueada: saldo Semrush zerado** |
-| 3 | Arquitetura do email — blocos, função, hierarquia | Claude Code | depende de 1 e 2 |
-| 4 | Copy — assunto, preheader, blocos, CTA | Claude Code | depende de 3 |
-| 5 | Pacote de handoff — briefing, inventário de imagens, copy | Claude Code | depende de 4 |
-| 6 | **Layout e código do email** | **Claude Design** | depende de 5 |
-| 7 | QA — fidelidade de copy, limites, peça sem imagem, links | Claude Code | depende de 6 |
+| 1 | Extração das artes → ficha por produto | Claude Code | pronto |
+| 2 | Demanda de busca → ordem dos produtos e das features | Claude Code + Semrush | **provisório** — Semrush sem saldo, decisão por julgamento declarado |
+| 3 | Arquitetura do email — blocos, função, hierarquia | Claude Code | pronto |
+| 4 | Copy — assunto, preheader, blocos, CTA | Claude Code | pronto |
+| 5 | Handoff — briefing, URLs e prompt autossuficiente | Claude Code | pronto |
+| 6 | **Layout e código do email** | **Claude Design** | aguardando |
+| 7 | QA — fidelidade de copy, limites, peça sem imagem, links, KB | Claude Code | depende de 6 |
 
 **A fronteira entre Claude Code e Claude Design está na Etapa 5/6.** Daqui sai o *quê* e
 o *porquê* de cada bloco; do Claude Design vêm a solução visual e o HTML.
 
 ## Bloqueios abertos
 
-1. **Artes não subidas.** Trava a Etapa 1, que trava todo o resto. É o caminho crítico.
-2. **Semrush sem saldo** (`403 ERROR 132 :: API UNITS BALANCE IS ZERO`, 09/08/2026).
+1. **Semrush sem saldo** (`403 ERROR 132 :: API UNITS BALANCE IS ZERO`, 09/08/2026).
    Trava a Etapa 2. Alternativa sem custo: arquivar um export de volume de busca em
    `search-mkt/data/` — o prompt da Etapa 2 já lê dessa fonte. Sem nenhuma das duas, a
    ordem de produtos e features sai marcada como provisória, sustentada por julgamento
