@@ -22,7 +22,7 @@ neoprene de 1,5 mm — em meio a três produtos disputando atenção.
 
 ## 2. Inventário de imagens
 
-### 2.1 Assets do email — as nove fotografias e o logo
+### 2.1 Assets do email — nove fotografias e três variações de logo
 
 | Arquivo | Bloco | Função | Texto alternativo |
 |---|---|---|---|
